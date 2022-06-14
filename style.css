@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    height: 100vh;
+}
+
+form {
+    width: 400px;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-around;
+}
+
+form input, button {
+    height: 25%;
+}
+
+.error {
+    position: absolute;
+    width: 50%;
+    background: rgba(255, 0, 0, .5);
+    top: -50px;
+    transition: .5s;
+    height: 50px;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.error p {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: auto;
+}
+
+.error div {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+
+}
+
+.error div p {
+    margin: auto;
+}
+
+.error div:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, .1);
+    user-select: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
