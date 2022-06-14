@@ -349,7 +349,8 @@ body {
 
 .comment_list {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    max-height: 100%;
     position: absolute;
     background: rgba(0, 0, 0, .5);
     z-index: 6;
