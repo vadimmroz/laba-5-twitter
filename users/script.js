@@ -19,24 +19,6 @@ if (!localStorage.getItem('user1') || !localStorage.getItem('user2') || !localSt
                         user3: ['pot']
                     },
                 text: 'test'
-            },
-            {
-                comments:
-                    {
-                        user1: ['ijsv'],
-                        user2: ['top'],
-                        user3: ['pot']
-                    },
-                text: '12454312'
-            },
-            {
-                comments:
-                    {
-                        user1: ['ijsv'],
-                        user2: ['top'],
-                        user3: ['pot']
-                    },
-                text: 'lol'
             }
         ],
         message: {
@@ -55,24 +37,6 @@ if (!localStorage.getItem('user1') || !localStorage.getItem('user2') || !localSt
                         user3: ['pot']
                     },
                 text: '12454312'
-            },
-            {
-                comments:
-                    {
-                        user1: ['ijsv'],
-                        user2: ['top'],
-                        user3: ['pot']
-                    },
-                text: '12454312'
-            },
-            {
-                comments:
-                    {
-                        user1: ['ijsv'],
-                        user2: ['top'],
-                        user3: ['pot']
-                    },
-                text: '12454312'
             }
         ],
         message: {
@@ -83,24 +47,6 @@ if (!localStorage.getItem('user1') || !localStorage.getItem('user2') || !localSt
     localStorage.setItem('user2', JSON.stringify(user2));
     const user3 = {
         posts: [
-            {
-                comments:
-                    {
-                        user1: ['ijsv'],
-                        user2: ['top'],
-                        user3: ['pot']
-                    },
-                text: '12454312'
-            },
-            {
-                comments:
-                    {
-                        user1: ['ijsv'],
-                        user2: ['top'],
-                        user3: ['pot']
-                    },
-                text: '12454312'
-            },
             {
                 comments:
                     {
