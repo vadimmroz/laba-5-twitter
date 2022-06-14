@@ -18,7 +18,7 @@ if (!localStorage.getItem('user1') || !localStorage.getItem('user2') || !localSt
                         user2: ['top'],
                         user3: ['pot']
                     },
-                text: 'test'
+                text: 'post1'
             }
         ],
         message: {
@@ -36,7 +36,7 @@ if (!localStorage.getItem('user1') || !localStorage.getItem('user2') || !localSt
                         user2: ['top'],
                         user3: ['pot']
                     },
-                text: '12454312'
+                text: 'post2'
             }
         ],
         message: {
@@ -54,7 +54,7 @@ if (!localStorage.getItem('user1') || !localStorage.getItem('user2') || !localSt
                         user2: ['top'],
                         user3: ['pot']
                     },
-                text: '12454312'
+                text: 'post3'
             }
         ],
         message: {
